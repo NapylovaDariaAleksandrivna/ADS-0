@@ -1,5 +1,17 @@
 // Copyright 2021 NNTU-CS
 
-int gcd(int a, int b) {
-    // поместить сюда текст реализации алгоритма (на С++)
+int gcd(int a, int b) 
+{
+   while (a != 0 and b != 0)
+   {
+        if (a >= b)
+        {
+            a %= b;
+        }
+        else:
+        {
+            a %= b;
+        }
+   }
+    return a+b;
 }
